@@ -83,6 +83,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .email-link:hover {
@@ -93,4 +94,16 @@ p {
 }
 .container {
   margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    margin: 10px;
+  }
 }
